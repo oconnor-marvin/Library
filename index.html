@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Gulzar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Library</title>
+</head>
+<body>
+    <div class="container">
+        <div class="new-book-input" id="new-book">
+            <i class="fas fa-solid fa-xmark" id="exit-new-book"></i>
+            <h2>New book</h2>
+            <form onsubmit="return false" id="form">
+            <p><label for="book-title"></label><input type="text" name="book-title" id="title-input">Name</label></p>
+            <p><label for="author-input"></label><input type="text" name="book-author" id="author-input">Author</label></p>
+            <p><label for="book-pages"></label><input type="number" name="book-pages" id="pages-input">Pages</label></p>
+            <p><label for="book-read" class="new-book-checkbox label"><input type="checkbox" name="book-read" id="book-read-input" class="new-book-checkbox checkbox">Read</label></p>
+            <p><input type="submit" id="submit-btn" onclick="newBook()"></p>
+            </form>
+        </div>
+        <div class="top-bar">
+            <h2 id="test-button">Library</h2>
+        </div>
+        <div class="add-book-container">
+            <button class="btn" id="add-book-btn"><i class="fa-solid fa-plus"></i> Add book</button>
+        </div>
+        <div class="books-container">
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
