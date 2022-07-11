@@ -12,16 +12,16 @@ This is a book library I have built with HTML, CSS and JavaScript. I chose to bu
 <h4>Mistakes to learn from</h4>
 
 <ul>
-<li>Although very low on my list of priorities for this project, I really didn't like the styling. If anything it hurt my motivation for the project.</li>
+<li>Although very low on my list of priorities for this project, I really didn't like the styling. If anything it hurt my motivation for the project.
 
-  In the future if I don't want to prioritise styling I will keep things as minimalist as possible. Perhaps it's an opportunity to start using frameworks to speed up the process too although that's perhaps something for later
-<li>My layout felt very messy at times making it hard to keep track of my code. Things got especially messy when using trial and error.</li>
+  In the future if I don't want to prioritise styling I will keep things as minimalist as possible. Perhaps it's an opportunity to start using frameworks to speed up the process too although that's perhaps something for later.</li>
+<li>My layout felt very messy at times making it hard to keep track of my code. Things got especially messy when using trial and error.
 
-  In the future when using trial and error I will look into using git to create a new branch. As hitting CTRL Z a lot caused much confusion. 
+  In the future when using trial and error I will look into using git to create a new branch. As hitting CTRL Z a lot caused much confusion.</li>
 
-<li>I came across using data attributes too late, making my remove function operate in a way I don't like, almost making the library array redundant and if this was a real app, it would cause havoc with memory.</li>
+<li>I came across using data attributes too late, making my remove function operate in a way I don't like, almost making the library array redundant and if this was a real app, it would cause havoc with memory.
 
-  I feel this comes from not understanding the tools in my toolkit well enough. I think this will come in time and I have already learnt a lot in this app to help in the future.
+  I feel this comes from not understanding the tools in my toolkit well enough. I think this will come in time and I have already learnt a lot in this app to help in the future.</li>
 
 <h4>Future improvements</h4>
 
