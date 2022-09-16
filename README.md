@@ -1,5 +1,7 @@
 # Library
 
+Live [Demo](https://oconnor-marvin.github.io/Library/)
+
 This is a book library I have built with HTML, CSS and JavaScript. I chose to build this as part of the Odin Project JavaScript branch. It is the first project in the JavaScript branch and I found the experience humbling. The main objective of the project was to learn how to correctly use object contructors. 
 
 <h4>What I learned</h4>
